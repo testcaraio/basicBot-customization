@@ -113,9 +113,9 @@
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/"testcaraio"/basicBot-customization/master/blacklists/NSFWlist.json",
-            OP: "https://rawgit.com/"testcaraio"/basicBot-customization/master/blacklists/OPlist.json",
-            BANNED: "https://rawgit.com/"testcaraio"/basicBot-customization/master/blacklists/BANNEDlist.json"
+            NSFW: "https://rawgit.com/"+ fork +"/basicBot-customization/master/blacklists/NSFWlist.json",
+            OP: "https://rawgit.com/"+ fork +"/basicBot-customization/master/blacklists/OPlist.json",
+            BANNED: "https://rawgit.com/"+ fork +"/basicBot-customization/master/blacklists/BANNEDlist.json"
         }
     }));
 
