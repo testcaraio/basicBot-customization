@@ -56,9 +56,9 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "Bot Test Carai",
         language: "portuguese",
-        chatLink: "https://rawgit.com/testcaraio/basicBot/master/lang/pt-BR.json",
+        chatLink: "https://rawgit.com/testcaraio/TesterBot/master/lang/pt-BR.json",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
@@ -120,6 +120,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/testcaraio/basicBot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/testcaraio/TesterBot/master/basicBot.js", extend);
 
 }).call(this);
