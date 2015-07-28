@@ -57,8 +57,8 @@
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "basicBot",
-        language: "english",
-        chatLink: "https://rawgit.com/testcaraio/basicBot/master/lang/en.json",
+        language: "portuguese",
+        chatLink: "https://rawgit.com/testcaraio/basicBot/master/lang/pt-BR.json",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
